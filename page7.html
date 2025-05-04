@@ -70,6 +70,96 @@
 
 	<!-- Form-->
 	<div>
+		<br>
+		<div class="rateus" id="AJ">
+			<br>
+			<h4> Rate our projects' proficiency from 1-5!</h4>
+			<hr>
+			<form action="">
+				<label for="inputName">Name :</label>
+                <input type="text" id="fullname" class="forform" placeholder="Type your full name">
+                <br>
+                <label for="inputemail">Email :</label> 
+                <input type="email" id="email" class="forform"placeholder="Type your email here"name="email">
+                <br><br>
+               <p> <b> Person to Rate </b> </p>
+	 			<select name="Students" id="students" class="col-sm-9">
+	 		    	<option disabled="true" selected="true" class="cen"> Choose one of the students</option>
+	   			   	<option value="AJ">AJ</option>
+	   				<option value="Khloe">Khloe</option>
+	   				<option value="Leona">Leona</option>
+	   				<option value="Skyler">Skyler</option>
+	   				<option value="Deryck">Deryck</option>
+	  			</select>
+	  			<br><br>
+				<details> 
+					   <summary>The criteria</summary>
+					   <br>
+					 	<div class="row">
+							<div class="Organization col-sm-4">
+							    	<p> <b> Organization </b> </p> <hr />
+							    	<input type="radio" id="excellent" name="Organization" value="5">
+									<label for="excellent">Excellent</label><br />
+									<input type="radio" id="aboveSatisfactory" name="Organization" value="4">
+									<label for="aboveSatisfactory">Above Satisfactory</label><br />
+									<input type="radio" id="satisfactory" name="Organization" value="3">
+									<label for="satisfactory">Satisfactory</label><br />
+									<input type="radio" id="needsImprovement" name="Organization" value="2">
+									<label for="needsImprovement">Needs Improvement</label><br />
+									<input type="radio" id="poor" name="Organization" value="1">
+									<label for="poor">Poor</label><br />
+									<br>
+									<p>Current Score: <span id="Oscore">None</span></p>
+								</div>
+								<div class="Design col-sm-4">
+							    	<p> <b> Design </b> </p> <hr />
+							    	<input type="radio" id="excellent" name="Design" value="5">
+									<label for="excellent">Excellent</label><br />
+									<input type="radio" id="aboveSatisfactory" name="Design" value="4">
+									<label for="aboveSatisfactory">Above Satisfactory</label><br />
+									<input type="radio" id="satisfactory" name="Design" value="3">
+									<label for="satisfactory">Satisfactory</label><br />
+									<input type="radio" id="needsImprovement" name="Design" value="2">
+									<label for="needsImprovement">Needs Improvement</label><br />
+									<input type="radio" id="poor" name="Design" value="1">
+									<label for="poor">Poor</label><br />
+									<br>
+									<p>Current Score: <span id="Dscore">None</span></p>
+								</div>
+								<div class="Functionality col-sm-4">
+							    	<p> <b> Functionality </b> </p> <hr />
+							    	<input type="radio" id="excellent" name="Functionality" value="5">
+									<label for="excellent">Excellent</label><br />
+									<input type="radio" id="aboveSatisfactory" name="Functionality" value="4">
+									<label for="aboveSatisfactory">Above Satisfactory</label><br />
+									<input type="radio" id="satisfactory" name="Functionality" value="3">
+									<label for="satisfactory">Satisfactory</label><br />
+									<input type="radio" id="needsImprovement" name="Functionality" value="2">
+									<label for="needsImprovement">Needs Improvement</label><br />
+									<input type="radio" id="poor" name="Functionality" value="1">
+									<label for="poor">Poor</label><br />
+									<br>
+									<p>Current Score: <span id="Fscore">None</span></p>
+								</div>	    
+						</div>
+							<hr>
+							<h5 id="Ave"> Average Score: </h5>
+					    <br />
+					    <button type="button" id="submit" onclick="Average()"class="col-auto btn btn-warning btn-sm" > Submit Scores </button>
+					    <br /><hr />
+				</details>
+				<br>
+                <label for="Feedback">Enter your feedback : </label> 
+                <textarea id="statement" name="Statement" class="col-sm-10" placeholder="Type your comments here"></textarea>
+                <br><br>
+                <button type="submit button" class="col-auto btn btn-warning btn-md"> Submit Entire Form</button>
+                <br><br>
+			</form>
+		</div>
+	</div>
+
+	<!-- Output of the rating, the averages, highest ranker, etc. -->
+	<div>
 		
 	</div>
 	<!-- Footer -->
