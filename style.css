@@ -234,9 +234,14 @@ hr {
   background-color: #FFFFFF;
 }
 
+.rating{
+text-align: justify;
+}
 
 .rateus {
-  margin: 20px;
+  border-radius: 25px;
+  margin: 25px;
   text-align: center;
   font-family: 'Sour Gummy', sans-serif;
+  background-color: #c8d9e6;
 }
