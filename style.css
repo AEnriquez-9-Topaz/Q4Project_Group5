@@ -233,3 +233,10 @@ hr {
 .flip-card-front {
   background-color: #FFFFFF;
 }
+
+
+.rateus {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Sour Gummy', sans-serif;
+}
