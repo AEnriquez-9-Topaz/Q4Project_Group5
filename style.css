@@ -11,6 +11,9 @@
   background-color: #2F4156;
   padding: 10px 20px;
 }
+.nav-link{
+  margin-right: 20px;
+}
 ul{
   font-family: Limelight;
 }
