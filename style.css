@@ -251,3 +251,7 @@ text-align: justify;
   font-family: 'Sour Gummy', sans-serif;
   background-color: #c8d9e6;
 }
+details{
+  margin-left:20% ;
+  margin-right: 20%;
+}
