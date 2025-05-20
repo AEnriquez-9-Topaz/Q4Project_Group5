@@ -33,15 +33,7 @@ ul{
   align-items: center;
 }
 
-.nav-left {
-  display: flex;
-  align-items: center;
-}
 
-.nav-right {
-  display: flex;
-  align-items: center;
-}
 
 .nav-tabs {
   display: flex;
