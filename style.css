@@ -1,4 +1,4 @@
-/*Styling : Espina, Escobar*/
+/*Styling: Espina, Escobar*/
  body {
   background-color: #F5EFEB;
   font-family: LimeLight;
@@ -144,17 +144,6 @@ table.char tr:last-child td {
   color: #2F4156;
 }
 
-footer {
-  background-color: #567C8D;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-
 hr {
   border: 0;
   height: 2px;
@@ -201,15 +190,6 @@ hr {
 .card-body {
       padding: 15px;
       text-align: center;
-}
-
-.btn-primary {
-      background-color: #007bff;
-      border: none;
-}
-
-.btn-primary:hover {
-      background-color: #0056b3;
 }
 
 .card-row {
@@ -266,7 +246,23 @@ border-radius: 10px;
   font-family: 'Sour Gummy', sans-serif;
   background-color: #c8d9e6;
 }
-details{
-  margin-left:20% ;
-  margin-right: 20%;
+
+footer {
+    font-family: Sour gummy; 
+    background-color:  #2F4156;
+    padding: 10px;
+    width: 50%;
+    text-align: left;
+    color: white;
+
+
+}
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover {
+  color: white;
 }
