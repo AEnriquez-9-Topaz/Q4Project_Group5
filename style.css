@@ -177,7 +177,7 @@ hr {
   width: 350px;
 }
 
-    .card {
+.card {
       width: 300px;
       height: 450px;
       border-radius: 10px;
@@ -185,44 +185,38 @@ hr {
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       transition: 0.3s;
       margin: 15px;
-    }
+}
 
-    .card:hover {
+.card:hover {
       transform: translateY(-5px);
       box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-    }
+}
 
-    .card-img-top {
+.card-img-top {
       width: 100%;
       height: 250px;
       object-fit: cover;
-    }
+}
 
-    .card-body {
+.card-body {
       padding: 15px;
       text-align: center;
-    }
+}
 
-    .btn-primary {
+.btn-primary {
       background-color: #007bff;
       border: none;
-    }
+}
 
-    .btn-primary:hover {
+.btn-primary:hover {
       background-color: #0056b3;
-    }
+}
 
-    .card-row {
+.card-row {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 30px;
-    }
- 
-ul {
-  list-style-type: none;
-  font-family: 'Sour Gummy';
-  text-align: justify;
 }
 
 .rating{
