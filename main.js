@@ -1,6 +1,6 @@
  const Oradios = document.getElementsByName('Organization'); 
  const Odisplay = document.getElementById('Oscore');
-
+// This code checks/listens to each Oradio for any change event. If it does change (meaning the person has clicked an option), it will display the value (this.value) of it in 'Oscore'
   Oradios.forEach(radio => {
     radio.addEventListener('change', function() {
       if (this.checked) {
@@ -32,12 +32,38 @@ const Fdisplay = document.getElementById('Fscore');
     });
   });
 
+// Math methods
+
 function Average() {
+  // Score is automatically 0 if nothing is clicked
   const Oscore = parseFloat(document.getElementById('Oscore').textContent) || 0;
   const Dscore = parseFloat(document.getElementById('Dscore').textContent) || 0;
   const Fscore = parseFloat(document.getElementById('Fscore').textContent) || 0;
 
   const average = (Oscore + Dscore + Fscore) / 3;
   const average_round = Math.round(average)
-  document.getElementById("Ave").innerHTML = "Your average score is " + average_round;
+
+
+  document.getElementById("Ave").innerHTML = "Their average score is " + average_round;
+
+  switch (average_round) {
+  case 0:
+    alert("Extra Poor!");
+    break;
+  case 1:
+    alert("Poor!");
+    break;
+  case 2:
+    alert("Needs Improvement!");
+    break;
+  case 3:
+    alert("Standard!");
+    break;
+   case 4:
+   alert("Above Standard!");
+    break;
+  default:
+    alert("Excellent!");
+}
+
 }
