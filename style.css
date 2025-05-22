@@ -27,6 +27,14 @@ ul{
   color: #C8D9E6;
 }
 
+.white {
+  color: white;
+}
+
+.just {
+  text-align: justify;
+}
+
 .navbar-collapse {
   display: flex;
   justify-content: space-between;
@@ -130,6 +138,10 @@ table.char tr:last-child td {
   outline: none;
 }
 
+.cen {
+  text-align: center;
+}
+
 .subtn {
   background-color: #567C8D;
   color: #F5EFEB;
@@ -162,8 +174,9 @@ hr {
 .card-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 350px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
 
 .card {
@@ -171,7 +184,8 @@ hr {
       height: 450px;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      margin: 15px;
+      margin: 20px;
+      overflow: hidden;
 }
 
 .card:hover {
@@ -191,9 +205,12 @@ hr {
 
 .card-row {
       display: flex;
+      overflow: hidden;
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 30px;
+
+
 }
 .card-container2 {
   display: flex;
@@ -248,7 +265,7 @@ border-radius: 10px;
 
 .rateus {
   border-radius: 25px;
-  margin: 25px;
+  margin: 50px;
   text-align: center;
   font-family: 'Sour Gummy', sans-serif;
   background-color: #c8d9e6;
@@ -261,9 +278,10 @@ footer {
     width: 50%;
     text-align: left;
     color: white;
-
-
 }
+
+
+
 a {
   text-decoration: none;
   color: white;
