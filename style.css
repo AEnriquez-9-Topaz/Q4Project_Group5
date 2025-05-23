@@ -11,6 +11,11 @@
   background-color: #2F4156;
   padding: 10px 20px;
 }
+
+summary {
+  font-family: sour gummy !important;
+}
+  
 .nav-link{
   margin-right: 20px;
 }
