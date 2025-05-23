@@ -67,3 +67,10 @@ function Average() {
 }
 
 }
+
+// onchange js event
+          document.getElementById("FullName").onchange = function() {ChangeToCapital()}
+          function ChangeToCapital() {
+            var fname = document.getElementById("FullName");
+            fname.value = fname.value.toUpperCase();
+          }
