@@ -1,4 +1,4 @@
-/*Styling: Espina, Escobar*/
+/*Styling: Espina, Escobar, Enriquez*/
  body {
   background-color: #F5EFEB;
   font-family: LimeLight;
@@ -18,6 +18,7 @@ ul{
   font-family: Limelight;
 }
 
+  
 .navbar .nav-link {
   color: #F5EFEB;
   font-weight: 600;
@@ -35,12 +36,16 @@ ul{
   text-align: justify;
 }
 
+
+.just-footer {
+  font-family: nova sans !important;
+  text-align: justify;
+}
 .navbar-collapse {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 
 
 .nav-tabs {
@@ -63,9 +68,14 @@ h1 {
   color: white;
   border-radius: 8px;
   padding: 5%;
-  font-family: Sour Gummy;
+  font-family: Sour gummy;
 
 }
+
+.footer-link {
+  color: #C8D9E6;
+}
+
 
 p {
   text-align: center;
@@ -81,6 +91,7 @@ p {
     width: 100%;
     height: 400px; 
     position: relative;
+    border: 1px solid black;
 }
 
 .carousel-item img {
@@ -91,7 +102,6 @@ p {
     height: 100%;
     object-fit: cover; 
     display: block;
-    border-radius: 10px;   
 
 }
 
@@ -136,6 +146,7 @@ table.char tr:last-child td {
   border: 2px solid #C8D9E6;
   border-radius: 8px;
   outline: none;
+  font-family: nova sans;
 }
 
 .cen {
@@ -186,7 +197,9 @@ hr {
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       margin: 20px;
       overflow: hidden;
+      
 }
+
 
 .card:hover {
       box-shadow: 0 6px 12px rgba(0,0,0,0.3);
@@ -196,11 +209,14 @@ hr {
       width: 100%;
       height: 250px;
       object-fit: cover;
+      border: 1px solid black;
 }
 
 .card-body {
       padding: 15px;
       text-align: center;
+      border: 1px solid black;
+
 }
 
 .card-row {
@@ -229,7 +245,9 @@ hr {
   margin: 15px;
   padding: 15px;
   text-align: center;
-  background: #fff;
+  background: #C8D9E6;
+
+
 }
 
 .self-card:hover {
@@ -251,7 +269,9 @@ hr {
 	border-radius: 10px;
 }
 
-
+.btn-outline-primary {
+  font-family: sour gummy !important;
+}
 
 details {
   margin-top: 10px;
@@ -272,7 +292,7 @@ border-radius: 10px;
 }
 
 footer {
-    font-family: Sour gummy; 
+    font-family: nova sans !important; 
     background-color:  #2F4156;
     padding: 10px;
     width: 50%;
@@ -291,3 +311,4 @@ a {
 a:hover {
   color: white;
 }
+
