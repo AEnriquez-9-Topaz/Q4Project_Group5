@@ -1,3 +1,4 @@
+ // Enriquez, Espina
  const Oradios = document.getElementsByName('Organization'); 
  const Odisplay = document.getElementById('Oscore');
 // This code checks/listens to each Oradio for any change event. If it does change (meaning the person has clicked an option), it will display the value (this.value) of it in 'Oscore'
@@ -45,7 +46,7 @@ function Average() {
 
 
   document.getElementById("Ave").innerHTML = "Their average score is " + average_round;
-
+// Gives an alert message based on the average of the person
   switch (average_round) {
   case 0:
     alert("Extra Poor!");
@@ -68,7 +69,7 @@ function Average() {
 
 }
 
-// onchange js event
+// onchange js event to capitalize 
           document.getElementById("FullName").onchange = function() {ChangeToCapital()}
           function ChangeToCapital() {
             var fname = document.getElementById("FullName");
